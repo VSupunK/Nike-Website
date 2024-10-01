@@ -1,3 +1,4 @@
+import PropularProductCard from "../components/PropularProductCard";
 import { products } from "../constants";
 
 const PopularProducts = () => {
@@ -13,7 +14,11 @@ const PopularProducts = () => {
           selections. Discover a world of confort, design, and value.
         </p>
       </div>
-      <div className="mt-16 grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 sm:gap-4 gap-14"></div>
+      <div className="mt-16 grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 sm:gap-4 gap-14">
+        {products.map((product) => (
+          <PropularProductCard key={product.name} {...product} />
+        ))}
+      </div>
     </section>
   );
 };
