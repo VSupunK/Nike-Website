@@ -16,3 +16,19 @@ terminal
 ```
 git clone https://github.com/VSupunK/Nike-Website.git
 ```
+
+- Install node_modules
+
+```
+npm install
+```
+
+- Run the app
+
+```
+npm start
+```
+
+# Visit the app right now
+
+- https://github.com/VSupunK/Nike-Website.git
