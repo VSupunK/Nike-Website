@@ -26,7 +26,7 @@ npm install
 - Run the app
 
 ```
-npm start
+npm run dev
 ```
 
 # Visit the app right now
