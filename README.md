@@ -11,7 +11,10 @@ Currently, two official plugins are available:
 
 - Clone this repository
 
-```
-terminal
+terminal```
+
 git clone https://github.com/VSupunK/Nike-Website.git
+
+```
+
 ```
